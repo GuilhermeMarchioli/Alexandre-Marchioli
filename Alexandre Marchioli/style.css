@@ -11,7 +11,7 @@
 :root {
     /* CORES: */
     --dark-green: #0D302C;
-    --green: #466A5C;
+    --green: #466a5c;
 }
 
 html, body {
@@ -44,6 +44,8 @@ header > a:hover {
     text-shadow: 0px 0px 8px, 0px 0px 14px;
 }
 
+
+
 span#burguer {    
     text-align: center;
     padding: 10px;
@@ -66,9 +68,56 @@ header > nav {
     padding: 10px;
     border-radius: 10px;
     width: 95%;
+    animation: animate__backInRight;
 }
 
 nav a {
     display: block;
+    padding: 10px;
     text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: var(--green);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+main {
+    padding: 10px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+section > h1 {
+    font-size: 2.3em;
+    color: var(--green);
+}
+
+section > h2 {
+    margin-bottom: 10px;
+}
+
+menu a {
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+    border-radius: 100px;
+}
+
+menu a:hover {
+    background-color: var(--dark-green);
+    color: black;
+    transition: all 1s;
+}
+
+#esIn {
+
 }
