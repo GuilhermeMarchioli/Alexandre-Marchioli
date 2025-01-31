@@ -1,10 +1,104 @@
-@charset "UTF-8";
+:root {
+    /* CORES: */
+    --dark-green: #0D302C;
+    --green: #466a5c;
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 776px) and (max-width: 992px) {
     span#burguer {
-        display: none;
+        display: none; /* O botão de hambúrguer desaparece */
     }
 
-    menu {
-        display: block;
+    header {
+        padding-right: 37px;
+        max-width: 100%;
+        overflow: hidden;
+        justify-content: space-between;
     }
+
+    body {
+        overflow-x: hidden; /* Remove rolagem lateral */
+    }
+
+    nav#itens {
+        width: 80%;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+
+        background-color: transparent;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        padding-right: 100px;
+    }
+
+    nav  a {
+        flex: auto;
+    }
+
+    nav a:hover {
+        background: none;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        border-bottom: 5px solid var(--green);
+        transform: scale(110%);
+        transition: all .5s;
+    }
+
+    section {
+        margin-top: 100px;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    span#burguer {
+        display: none; /* O botão de hambúrguer desaparece */
+    }
+
+    header {
+        padding-right: 37px;
+        max-width: 100%;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+
+    body {
+        overflow-x: hidden; /* Remove rolagem lateral */
+    }
+
+    nav#itens {
+        width: 80%;
+        display: flex;
+        position: relative;
+        justify-content: space-around;
+
+        background-color: transparent;
+        box-sizing: border-box;
+        justify-content: space-evenly;
+        padding-right: 100px;
+    }
+
+    nav  a {
+        flex: auto;
+    }
+
+    nav a:hover {
+        background: none;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        border-bottom: 5px solid var(--green);
+        transform: scale(110%);
+        transition: all .5s;
+    }
+
+    section {
+        margin-top: 100px;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+}
+
