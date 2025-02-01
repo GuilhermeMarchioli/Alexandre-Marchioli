@@ -46,7 +46,7 @@
         transition: all .5s;
     }
 
-    section {
+    section#home {
         margin-top: 100px;
         flex-flow: row nowrap;
         justify-content: center;
@@ -95,7 +95,7 @@
         transition: all .5s;
     }
 
-    section {
+    section#home {
         margin-top: 100px;
         flex-flow: row nowrap;
         justify-content: center;
