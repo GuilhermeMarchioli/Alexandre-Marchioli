@@ -1,7 +1,7 @@
 const itens = document.getElementById("itens");
 
 function mudouTamanho() {
-    if (window.innerWidth >= 768) {
+    if (window.innerWidth >= 992) {
         itens.style.display = 'block';
     } else {
         itens.style.display = 'none';

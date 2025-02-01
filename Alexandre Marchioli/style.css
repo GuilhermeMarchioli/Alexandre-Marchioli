@@ -121,6 +121,10 @@ section#home > div#logo {
     margin-bottom: 100px;
 }
 
+section#home > div#logo > svg {
+    margin: auto;
+}
+
 /* CONTEÚDO */
 section#home > div#content {
     display: block;
