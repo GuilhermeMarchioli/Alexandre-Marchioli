@@ -12,6 +12,7 @@
     /* CORES: */
     --dark-green: #0D302C;
     --green: #466a5c;
+    --grey: #c4c4c4;
 }
 
 html {
@@ -141,7 +142,7 @@ section#home > div#content > h2 {
 }
 
 section#home > div#content abbr {
-    color: #c4c4c4;
+    color: var(--grey);
     text-decoration: none;
 }
 
@@ -196,4 +197,55 @@ a#inteBtn:hover {
     font-size: 1.1em;
 }
 
-/*  */
+a#inteBtn:active {
+    background-color: var(--green);
+}
+
+/* PAGE SOBRE */
+
+section#sobre {
+    padding: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section#sobre > div#imgSobre {
+        display: block;
+        color: var(--green);
+        margin-right: 30px;
+}
+
+section#sobre > div > h1 {
+    min-width: 400px;
+    font-size: 2.3em;
+    color: var(--green);
+}
+
+section#sobre > div > h2 {
+    color: grey;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+section#sobre > div > h2:hover {
+    text-decoration: underline;
+    cursor: default;
+}
+
+section#sobre > div  p {
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 0.8em;
+}
+
+section#sobre p:hover {
+    transform: scale(110%);
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 3px solid var(--dark-green);
+    transition: all 0.5s;
+    cursor: default;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
