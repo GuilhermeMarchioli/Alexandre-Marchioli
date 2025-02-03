@@ -113,6 +113,7 @@ section#home {
     padding: 40px;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
 }
 
 /* LOGO */
@@ -212,6 +213,7 @@ section#sobre {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    justify-content: center;
 }
 
 section#sobre > div#imgSobre {
