@@ -312,7 +312,19 @@ div.service-box:hover svg {
 
 /* PAGE EXPERIENCIAS */
 
+section#experiência {
+    margin-top: 40px;
+}
+
+section#experiência h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 2.3em;
+    color: var(--green);
+}
+
 article {
+    max-width: 638px;
     background-color: #13363256;
     width: 95%;
     padding: 18px;
@@ -331,4 +343,16 @@ div.expBlock {
     width: 200px;
     height: 200px;
     border: 1px solid var(--dark-green);
+}
+
+div.expBlock svg {
+    margin:  10px;
+    width: 170px;
+    color: #0D302C;
+    height: 120px;
+}
+
+div.expBlock svg:hover {
+    transform: scale(110%);
+    transition: all 1s;
 }
