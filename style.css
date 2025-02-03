@@ -110,7 +110,7 @@ main {
 
 /* HOME PAGE */
 section#home {
-    padding: 50px;
+    padding: 40px;
     display: flex;
     flex-flow: column wrap;
 }
@@ -215,6 +215,7 @@ section#sobre {
 }
 
 section#sobre > div#imgSobre {
+    padding: 10px;
         display: block;
         color: var(--green);
         margin-right: 30px;
