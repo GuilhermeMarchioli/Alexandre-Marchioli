@@ -15,6 +15,91 @@
     --grey: #c4c4c4;
 }
 
+
+/* Animação */
+
+section#home {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+section#sobre {
+    animation: appear 0.5ms;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+section#serviços {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+section#experiência {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+section#contato {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+div {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+p {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+p.noAnim {
+    animation: none;
+}
+
+footer p {
+    animation: none;
+}
+
+h1 {
+    animation: appear 1s;
+    animation-timeline: view();
+    animation-range: cover 0% cover 50%;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        translate: -100vw 0;
+    }
+
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+
+@keyframes scroll {
+    from {
+        scale: 0 1;
+    }
+
+    to {
+        scale: 1 1;
+    }
+}
+
+
+
+/* Inicio da estilização */
+
 html {
     scroll-behavior: smooth;
 }
@@ -32,6 +117,7 @@ body {
 
 /* HEADER */
 header {
+    z-index: 1;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -42,6 +128,7 @@ header {
 }
 
 header > a {
+    animation: appear;
     padding: 12px;
     font-size: 1.4em;
     font-weight: bold;
@@ -74,6 +161,7 @@ span#burguer:hover {
 }
 
 header > nav {
+    animation: appear;
     display: none;
     position: absolute;
     background-color: #0d302c69;
@@ -103,6 +191,7 @@ nav a:hover {
 
 /* CONTEÚDO PRINCIPAL */
 main {
+    z-index: 0;
     padding: 10px;
     align-self: center;
     margin-top: 20px;
@@ -329,7 +418,7 @@ article {
     max-width: 638px;
     background-color: #13363256;
     width: 95%;
-    padding: 10px 50px 10px 25px;
+    padding: 15px 38px 15px 38px;
     margin: auto;
 }
 
@@ -357,4 +446,81 @@ div.expBlock svg {
 div.expBlock svg:hover {
     transform: scale(110%);
     transition: all 1s;
+}
+
+/* CONTATO */
+
+section#contato {
+    margin-top: 50px;
+    text-align: center;
+}
+
+section#contato div > h1 {
+    text-align: center;
+    font-size: 2.3em;
+    color: var(--green);
+    margin: 20px;
+}
+
+section#contato div > p {
+    font-size: 1.2em;
+    color: var(--grey);
+    padding: 30px;
+}
+
+section#contato div > h2 {
+    padding: 20px;
+    border-bottom: 5px solid var(--green);
+    margin: 30px 80px;
+}
+
+
+section#contato div a {
+    color: var(--dark-green);
+    display: block;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid var(--dark-green);
+    border-radius: 100px;
+}
+
+section#contato div a:hover {
+    background-color: #466a5c;
+    color: white;
+    transform: scale(110%);
+    transition: all 0.5s;
+}
+
+section#contato div a:active {
+    background-color: var(--dark-green);
+    box-shadow: 0px 0px 12px var(--dark-green), 0px 0px 24px var(--dark-green), 0px 0px 100px var(--dark-green);
+}
+
+section#contato div a > svg {
+    margin-top: 5px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #0d302c18;
+    padding: 5px;
+}
+
+footer h3 {
+    font-size: 1em;
+    padding: 10px;
+}
+
+footer > p {
+    font-size: 0.8em;
+}
+
+footer a {
+    font-size: 0.8em;
+    color: var(--green);
 }
