@@ -44,10 +44,9 @@ section#experiência {
 
 section#contato {
     animation: appear 1s;
-    animation-timeline: view;
+    animation-timeline: view();
     animation-range: cover 0% cover 50%;
 }
-
 
 
 @keyframes appear {
