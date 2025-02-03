@@ -325,6 +325,7 @@ section#experiência h1 {
 }
 
 article {
+    min-width: 300px;
     max-width: 638px;
     background-color: #13363256;
     width: 95%;
