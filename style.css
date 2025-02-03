@@ -38,13 +38,13 @@ section#serviços {
 
 section#experiência {
     animation: appear 1s;
-    animation-timeline: scroll();
+    animation-timeline: view();
     animation-range: cover 0% cover 50%;
 }
 
 section#contato {
     animation: appear 1s;
-    animation-timeline: scroll();
+    animation-timeline: view;
     animation-range: cover 0% cover 50%;
 }
 
