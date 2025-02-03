@@ -209,18 +209,15 @@ a#inteBtn:active {
 /* PAGE SOBRE */
 
 section#sobre {
-    padding: 50px;
+    padding: 40px;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
+    flex-flow: column wrap;
     justify-content: center;
 }
 
 section#sobre > div#imgSobre {
-    padding: 10px;
-        display: block;
-        color: var(--green);
-        margin-right: 30px;
+    display: block;
+    color: var(--green);
 }
 
 section#sobre > div > h1 {
@@ -251,10 +248,11 @@ section#sobre p:hover {
     font-weight: bold;
     padding-bottom: 5px;
     border-bottom: 3px solid var(--dark-green);
-    transition: all 0.5s;
+    transition: all 0.3s;
     cursor: default;
     margin-bottom: 30px;
     margin-top: 30px;
+    padding: 35px;
 }
 
 /* PAGE SERVIÇOS */
@@ -327,11 +325,11 @@ section#experiência h1 {
 }
 
 article {
-    min-width: 300px;
+    min-width: 439px;
     max-width: 638px;
     background-color: #13363256;
     width: 95%;
-    padding: 18px;
+    padding: 10px 50px 10px 25px;
     margin: auto;
 }
 
@@ -344,8 +342,8 @@ div#expContainer {
 
 div.expBlock {
     text-align: center;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border: 1px solid var(--dark-green);
 }
 
