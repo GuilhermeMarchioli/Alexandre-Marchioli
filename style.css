@@ -27,7 +27,7 @@ section#home {
 section#sobre {
     animation: appear 1ms;
     animation-timeline: view();
-    animation-range: cover 0% cover 50%;
+    animation-range: cover 0% cover 35%;
 }
 
 section#serviços {
@@ -173,10 +173,11 @@ section#home {
 section#home > div#logo {
     display: block;
     color: var(--green);
+    max-width: 1000px;
 }
 
 section#home > div#logo {
-    margin: auto;
+    margin: 10px;
     margin-bottom: 100px;
 }
 
