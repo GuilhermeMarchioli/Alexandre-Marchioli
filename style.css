@@ -214,6 +214,7 @@ section#home  > div#content > p {
     font-size: 0.8em;
     padding-bottom: 20px;
     margin-top: -5px;
+    max-width: 650px;
 }
 
 section#home menu a {
@@ -294,6 +295,8 @@ section#sobre > div  p {
     padding: 10px;
     margin-top: 15px;
     font-size: 0.8em;
+    max-width: 750px;
+
 }
 
 section#sobre p:hover {
@@ -334,6 +337,7 @@ div.service-box {
     width: 90%;
     padding: 20px;
     border-radius: 30px;
+    max-width: 700px;
 }
 
 div.service-box > h1 {
