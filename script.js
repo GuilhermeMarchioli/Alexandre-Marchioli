@@ -15,3 +15,17 @@ function clickMenu() {
         itens.style.display = 'block';
     }
 }
+
+
+// Modal
+const buttonClose = document.querySelector('button')
+const botao01 = document.getElementById('btn1')
+const modal01 = document.getElementById('modal01')
+
+botao01.onclick = function () {
+    modal01.showModal()
+}
+
+buttonClose.onclick = function () {
+    modal01.close()
+}
