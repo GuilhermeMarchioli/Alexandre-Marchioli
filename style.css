@@ -322,6 +322,39 @@ section#sobre p:hover {
         padding: 20px;
         width: 400px;
         height: 300px;
+
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 0px 12px var(--green);
+
+        background-color: var(--green);
+        color: white;
+    }
+
+    dialog h1 {
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    dialog button {
+        display: block;
+        width: 90%;
+        padding: 10px;
+        margin: auto;
+        margin-top: 20px;
+        background-color: var(--dark-green);
+        color: white;
+        border: none;
+        border-radius: 50px;
+    }
+
+    dialog button:hover {
+        background-color: #1a534c;
+        cursor: pointer;
+    }
+
+    dialog::backdrop {
+        background-color: rgb(0 0 0 / .5);
     }
 
 /* PAGE SERVIÇOS */

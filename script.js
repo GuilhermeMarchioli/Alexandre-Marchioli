@@ -18,8 +18,6 @@ function clickMenu() {
 
 
 // Modal
-const buttonClose = document.querySelector('button')
-
 
 function mostrarModal01() {
     let modal01 = document.getElementById('modal01')
@@ -52,6 +50,11 @@ function mostrarModal06() {
 }
 
 
-buttonClose.onclick = function () {
+function fecharModal() {
     modal01.close()
+    modal02.close()
+    modal03.close()
+    modal04.close()
+    modal05.close()
+    modal06.close()
 }
