@@ -405,16 +405,38 @@ div.service-box svg {
     border-radius: 100px;
 }
 
+div.service-box button {
+    margin: 15px;
+    padding: 10px 15px;
+    border: 1px solid var(--dark-green);
+    background-color: transparent;
+    border-radius: 20px;
+    color: var(--dark-green);
+
+}
+
+div.service-box button:hover {
+    transform: scale(110%);
+    box-shadow: 0px 0px 12px var(--green);
+    border: none;
+    cursor: pointer;
+}
+
 div.service-box:hover {
     background-color: var(--dark-green);
     transition: all 0.5s;
-    cursor: pointer;
 }
 
 div.service-box:hover svg {
     color: var(--dark-green);
     background-color: white;
     transition: all 1s
+}
+
+div.service-box:hover button {
+    color: white;
+    background-color: var(--green);
+    transition: all 1s;
 }
 
 /* PAGE EXPERIENCIAS */
