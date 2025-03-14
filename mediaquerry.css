@@ -132,7 +132,7 @@
         align-items: center;
     }
 
-    div.service-box {
+    section#servicos {
         display: inline-block;
         width: calc(100% / 3 - 10px);
     }
