@@ -30,7 +30,7 @@ section#sobre {
     animation-range: cover 0% cover 35%;
 }
 
-section#serviços {
+div.service-box {
     animation: appear 1ms;
     animation-timeline: view();
     animation-range: cover 0% cover 50%;
