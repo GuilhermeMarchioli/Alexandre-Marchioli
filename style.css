@@ -395,6 +395,7 @@ div.service-box button:hover {
 div.service-box:hover {
     background-color: var(--dark-green);
     transition: all 0.5s;
+    transform: scale(110%);
 }
 
 div.service-box:hover svg {
@@ -475,6 +476,8 @@ section#contato div > p {
     font-size: 1.2em;
     color: var(--grey);
     padding: 30px;
+    max-width: 850px;
+    margin: auto;
 }
 
 section#contato div > h2 {
@@ -490,6 +493,7 @@ section#contato div a {
     align-items: center;
     justify-content: center;
     width: 40%;
+    max-width: 750px;
     margin: auto;
     padding: 10px;
     margin-bottom: 20px;

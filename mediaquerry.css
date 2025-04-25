@@ -57,6 +57,10 @@
         justify-content: center;
     }
 
+    section#serviços {
+        max-width: 100px
+    }
+
     section#serviços > div#service {
         flex-flow: row wrap;
         justify-content: center;
@@ -135,6 +139,7 @@
     div.service-box {
         display: inline-block;
         width: calc(100% / 3 - 10px);
+        max-width: 400px;
     }
 }
 
